@@ -14,9 +14,64 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Obinna Awoke",
+  metadataBase: new URL("https://obinnaawoke.com"),
+
+  title: {
+    default: "Obinna Awoke",
+    template: "%s | Obinna Awoke",
+  },
+
   description:
     "AI Security Researcher specializing in Cybersecurity, Explainable AI, Machine Learning, and Intelligent Network Systems.",
+
+  keywords: [
+    "Obinna Awoke",
+    "Cybersecurity",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Explainable AI",
+    "XAI",
+    "Network Security",
+    "Deep Learning",
+    "Research",
+    "Academic Website",
+  ],
+
+  authors: [
+    {
+      name: "Obinna Awoke",
+      url: "https://obinnaawoke.com",
+    },
+  ],
+
+  creator: "Obinna Awoke",
+
+  openGraph: {
+    title: "Obinna Awoke",
+    description:
+      "AI Security Researcher specializing in Cybersecurity, Explainable AI, Machine Learning, and Intelligent Network Systems.",
+    url: "https://obinnaawoke.com",
+    siteName: "Obinna Awoke",
+    locale: "en_GB",
+    type: "website",
+
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Obinna Awoke - AI Security Researcher",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Obinna Awoke",
+    description:
+      "AI Security Researcher specializing in Cybersecurity, Explainable AI, Machine Learning, and Intelligent Network Systems.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
@@ -31,13 +86,11 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-screen flex flex-col">
-        
         <main className="flex-grow">
           {children}
         </main>
 
         <Footer />
-
       </body>
     </html>
   );
