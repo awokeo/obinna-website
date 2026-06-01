@@ -7,9 +7,7 @@ export default function Hero() {
 
       <div className="mt-6">
         <h1 className="text-5xl font-serif leading-tight">
-          Building Intelligent and Trustworthy AI Systems
-          <br />
-          for Cybersecurity and Network Defense
+          Building Intelligent and Trustworthy AI Systems for Cybersecurity and Network Defense
         </h1>
       </div>
 
