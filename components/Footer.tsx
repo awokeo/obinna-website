@@ -1,9 +1,18 @@
+import {
+  FaLinkedin,
+  FaGithub,
+  FaGoogle,
+} from "react-icons/fa";
+
+import { SiOrcid } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
+
 export default function Footer() {
   return (
     <footer className="border-t mt-20">
       <div className="max-w-7xl mx-auto px-6 py-10">
 
-        <div className="flex flex-col md:flex-row justify-between gap-8">
+        <div className="flex flex-col md:flex-row justify-between gap-12">
 
           {/* Left */}
           <div>
@@ -26,50 +35,58 @@ export default function Footer() {
 
           {/* Right */}
           <div>
-            <h4 className="font-semibold mb-3">
+            <h4 className="font-semibold mb-4">
               Connect
             </h4>
 
-            <div className="space-y-2 text-gray-600">
+            <div className="space-y-3">
 
-              <p>
-                📧 obinna.awoke@gmail.com
-              </p>
+              <a
+                href="mailto:obinna.awoke@gmail.com"
+                className="flex items-center gap-3 text-gray-600 hover:text-red-700 transition"
+              >
+                <MdEmail size={20} />
+                <span>obinna.awoke@gmail.com</span>
+              </a>
 
               <a
                 href="https://www.linkedin.com/in/obinnakev"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block hover:text-red-700"
+                className="flex items-center gap-3 text-gray-600 hover:text-red-700 transition"
               >
-                LinkedIn
+                <FaLinkedin size={20} />
+                <span>LinkedIn</span>
               </a>
 
               <a
                 href="https://github.com/awokeo"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block hover:text-red-700"
+                className="flex items-center gap-3 text-gray-600 hover:text-red-700 transition"
               >
-                GitHub
+                <FaGithub size={20} />
+                <span>GitHub</span>
               </a>
 
               <a
                 href="https://scholar.google.com/citations?user=I-Ewzb4AAAAJ&hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block hover:text-red-700"
+                className="flex items-center gap-3 text-gray-600 hover:text-red-700 transition"
               >
-                Google Scholar
+                <FaGoogle size={20} />
+                <span>Google Scholar</span>
               </a>
 
               <a
                 href="https://orcid.org/0009-0004-6632-2384"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block hover:text-red-700"
+                className="flex items-center gap-3 text-gray-600 hover:text-red-700 transition"
               >
-                ORCID
+                <SiOrcid size={20} />
+                <span>ORCID</span>
               </a>
 
             </div>
