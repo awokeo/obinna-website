@@ -32,18 +32,6 @@ export default function FeaturedResearch() {
           </p>
         </div>
 
-        <div className="border rounded-lg p-8">
-          <h3 className="text-2xl font-serif mb-4">
-            Zero-Day Attack Detection Using Transformer Embeddings
-          </h3>
-
-          <p className="leading-8 text-gray-700">
-            Exploring transformer-based representations and
-            explainable AI for advanced threat detection
-            in modern network environments.
-          </p>
-        </div>
-
       </div>
 
     </section>

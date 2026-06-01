@@ -10,22 +10,27 @@ export default function NewsSection() {
 
         <div>
           <p className="text-red-700 font-semibold">
-            Apr 2026
+            May 2026
           </p>
 
           <p>
-            Paper accepted at ICICT 2026 on Explainable AI
-            for Cardiovascular Disease Prediction.
+            Published a book chapter titled
+            <span className="italic">
+              {" "}
+              "A Computational Framework for Inclusive Assessment and Predictive Student Retention Models in Higher Education"
+            </span>
+            {" "}in IGI Global Scientific Publishing.
           </p>
         </div>
 
         <div>
           <p className="text-red-700 font-semibold">
-            Jan 2026
+            Mar 2026
           </p>
 
           <p>
-            Started XAI-AD Research Project at LISITE, ISEP.
+            Paper presented at ICICT 2026 on Explainable AI
+            for Cardiovascular Disease Prediction.
           </p>
         </div>
 

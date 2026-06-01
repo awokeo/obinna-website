@@ -10,23 +10,23 @@ export default function ResearchAreas() {
 
         <div className="border rounded-lg p-6">
           <h3 className="text-xl font-semibold mb-3">
-            Explainable Artificial Intelligence
+            AI-Driven Cybersecurity
           </h3>
 
           <p>
-            Interpretable machine learning models for transparent
-            and trustworthy AI systems.
+            Machine learning and deep learning approaches for intrusion detection, 
+            anomaly detection, and intelligent cyber defence.
           </p>
         </div>
 
         <div className="border rounded-lg p-6">
           <h3 className="text-xl font-semibold mb-3">
-            Cybersecurity Analytics
+            Explainable Artificial Intelligence
           </h3>
 
           <p>
-            AI-driven threat detection, intrusion detection,
-            and cyber defence systems.
+            Developing transparent and trustworthy AI systems using SHAP, LIME, 
+            Anchors, and Integrated Gradients.
           </p>
         </div>
 
@@ -36,7 +36,8 @@ export default function ResearchAreas() {
           </h3>
 
           <p>
-            Secure and adaptive communication infrastructures.
+            Research on scalable, adaptive, and secure network architectures for 
+            modern communication environments.
           </p>
         </div>
 
@@ -46,7 +47,7 @@ export default function ResearchAreas() {
           </h3>
 
           <p>
-            Explainable disease prediction and anomaly detection.
+            Explainable anomaly detection and predictive modelling for healthcare applications.
           </p>
         </div>
 

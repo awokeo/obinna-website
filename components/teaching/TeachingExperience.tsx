@@ -23,10 +23,12 @@ export default function TeachingExperience() {
           </p>
 
           <p className="mt-3 text-gray-700 leading-7 text-justify">
-            Support teaching and learning activities within the School of
-            Computing, facilitate tutorials and practical sessions, assist
-            with student assessments, and provide academic guidance to
-            undergraduate students.
+            Support the delivery of undergraduate computing and mathematics 
+            education through lectures, tutorials, and practical laboratory sessions. 
+            Contribute to student assessment, academic mentoring, and curriculum implementation, 
+            while supervising undergraduate projects and providing guidance on research, 
+            technical development, and professional skills.
+
           </p>
         </div>
 
@@ -66,7 +68,7 @@ export default function TeachingExperience() {
           </p>
 
           <p className="mt-3 text-gray-700 leading-7 text-justify">
-            Delivered lectures in Computer Science courses, developed
+            Delivered lectures in Computer Science and Mathematics courses, developed
             instructional materials, supervised laboratory sessions,
             assessed student performance, and mentored undergraduate
             students in academic and project work.

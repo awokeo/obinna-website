@@ -17,14 +17,14 @@ export default function ScholarProfile() {
       <div className="mt-8 flex gap-4">
 
         <a
-          href="#"
+          href="https://scholar.google.com/citations?user=I-Ewzb4AAAAJ&hl=en"
           className="border px-5 py-3 rounded"
         >
           Google Scholar
         </a>
 
         <a
-          href="#"
+          href="https://orcid.org/0009-0004-6632-2384"
           className="border px-5 py-3 rounded"
         >
           ORCID

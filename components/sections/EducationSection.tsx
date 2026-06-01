@@ -10,7 +10,7 @@ export default function EducationSection() {
 
         <div>
           <h3 className="text-2xl font-serif">
-            Master of Engineering
+            Master of Engineering (Diplôme d'Ingénieur)
           </h3>
 
           <p className="font-medium">
@@ -18,7 +18,7 @@ export default function EducationSection() {
           </p>
 
           <p className="text-gray-600">
-            Institut Supérieur d'Électronique de Paris (ISEP)
+            Institut Supérieur d'Électronique de Paris (ISEP), France
           </p>
 
           <p className="text-gray-500">
@@ -36,7 +36,7 @@ export default function EducationSection() {
           </p>
 
           <p className="text-gray-600">
-            African University of Science and Technology
+            African University of Science and Technology, Abuja - Nigeria
           </p>
 
           <p className="text-gray-500">
@@ -54,7 +54,7 @@ export default function EducationSection() {
           </p>
 
           <p className="text-gray-600">
-            Ebonyi State University
+            Ebonyi State University, Nigeria
           </p>
 
           <p className="text-gray-500">

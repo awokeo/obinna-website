@@ -15,12 +15,40 @@ export default function Hero() {
 
       <div className="mt-10 space-y-8 text-lg leading-9 text-gray-800 text-justify">
         <p>
-          I am a researcher in Artificial Intelligence and Cybersecurity,
-          currently pursuing a Master of Engineering in Digital Security and
-          Networks at Institut Supérieur d'Électronique de Paris (ISEP),
-          France. My research focuses on developing intelligent, scalable,
-          and explainable machine learning systems for intrusion detection,
-          anomaly detection, and network security.
+          I am a researcher in Artificial Intelligence and Cybersecurity and a
+          Master of Engineering candidate in Digital Security and Networks at{" "}
+          <a
+            href="https://www.isep.fr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-red-700 hover:underline"
+          >
+            Institut Supérieur d&apos;Électronique de Paris (ISEP)
+          </a>
+          , France. My research is conducted within the{" "}
+          <a
+            href="http://www.lisite.isep.fr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-red-700 hover:underline"
+          >
+            LISITE Research Laboratory
+          </a>{" "}
+          under the supervision of{" "}
+          <a
+            href="https://perso.isep.fr/ychabcho/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-red-700 hover:underline"
+          >
+            Dr. Yousra Chabchoub
+          </a>
+          . I investigate intelligent, scalable, and explainable machine learning
+          approaches for cybersecurity, with research interests spanning intrusion
+          detection, anomaly detection, trustworthy artificial intelligence, and
+          intelligent network defence systems. My work aims to bridge advanced AI
+          methodologies with practical security challenges in complex and dynamic
+          environments.
         </p>
 
         <p>
@@ -40,24 +68,6 @@ export default function Hero() {
           the fusion of deep learning architectures in Intent-Driven Networks
           for real-time intrusion detection using the CIC-IDS2017 benchmark.
         </p>
-      </div>
-
-      <div className="mt-10 flex flex-wrap gap-4">
-        <a
-          href="/Obinna_Awoke_CV.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="border px-6 py-3 rounded hover:bg-black hover:text-white transition"
-        >
-          Download CV
-        </a>
-
-        <a
-          href="/research"
-          className="border px-6 py-3 rounded hover:bg-gray-100 transition"
-        >
-          View Research
-        </a>
       </div>
     </section>
   );

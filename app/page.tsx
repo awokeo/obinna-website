@@ -26,7 +26,7 @@ export default function Home() {
 
             <Hero />
 
-            <ResearchInterests />
+            {/* <ResearchInterests /> */}
 
             <FeaturedResearch />
 

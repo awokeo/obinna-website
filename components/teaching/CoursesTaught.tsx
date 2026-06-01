@@ -6,54 +6,77 @@ export default function CoursesTaught() {
 
       <SectionHeader title="Courses Taught" />
 
-      <div className="grid gap-6">
+      <div className="mb-8">
+        <a
+          href="https://miva.university"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xl font-semibold text-red-700 hover:underline"
+        >
+          Miva Open University
+        </a>
 
-        <div className="border rounded-lg p-6">
-          <h3 className="text-xl font-semibold">
-            MTH 101 – Elementary Mathematics I
-          </h3>
+        <p className="text-gray-500 mt-2">
+          Abuja, Nigeria
+        </p>
+      </div>
 
-          <p className="text-gray-600 mt-2">
-            Algebra and Trigonometry
-          </p>
+      <div className="border-t">
 
-          <p className="text-gray-500 mt-2">
-            Autumn 2024 • Spring 2024
-          </p>
+        <div className="grid grid-cols-12 gap-4 py-6 border-b">
+          <div className="col-span-12 md:col-span-3 font-semibold text-red-700">
+            MTH 101
+          </div>
+
+          <div className="col-span-12 md:col-span-5">
+            Elementary Mathematics I (Algebra & Trigonometry)
+          </div>
+
+          <div className="col-span-12 md:col-span-4 text-gray-500 md:text-right">
+            Spring 2024 • Autumn 2024
+          </div>
         </div>
 
-        <div className="border rounded-lg p-6">
-          <h3 className="text-xl font-semibold">
-            MTH 102 – Elementary Mathematics II
-          </h3>
+        <div className="grid grid-cols-12 gap-4 py-6 border-b">
+          <div className="col-span-12 md:col-span-3 font-semibold text-red-700">
+            MTH 102
+          </div>
 
-          <p className="text-gray-600 mt-2">
-            Calculus
-          </p>
+          <div className="col-span-12 md:col-span-5">
+            Elementary Mathematics II (Calculus)
+          </div>
 
-          <p className="text-gray-500 mt-2">
-            Autumn 2024 • Spring 2024
-          </p>
+          <div className="col-span-12 md:col-span-4 text-gray-500 md:text-right">
+            Spring 2024 • Autumn 2024
+          </div>
         </div>
 
-        <div className="border rounded-lg p-6">
-          <h3 className="text-xl font-semibold">
-            PHY 211 – Linear Algebra I
-          </h3>
+        <div className="grid grid-cols-12 gap-4 py-6 border-b">
+          <div className="col-span-12 md:col-span-3 font-semibold text-red-700">
+            PHY 211
+          </div>
 
-          <p className="text-gray-500 mt-2">
+          <div className="col-span-12 md:col-span-5">
+            Linear Algebra I
+          </div>
+
+          <div className="col-span-12 md:col-span-4 text-gray-500 md:text-right">
             Spring 2024
-          </p>
+          </div>
         </div>
 
-        <div className="border rounded-lg p-6">
-          <h3 className="text-xl font-semibold">
-            IFT 112 – Introduction to Information Technology
-          </h3>
+        <div className="grid grid-cols-12 gap-4 py-6 border-b">
+          <div className="col-span-12 md:col-span-3 font-semibold text-red-700">
+            IFT 112
+          </div>
 
-          <p className="text-gray-500 mt-2">
-            2024
-          </p>
+          <div className="col-span-12 md:col-span-5">
+            Introduction to Information Technology
+          </div>
+
+          <div className="col-span-12 md:col-span-4 text-gray-500 md:text-right">
+            Spring 2024
+          </div>
         </div>
 
       </div>
