@@ -2,7 +2,6 @@ import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
 import Hero from "@/components/Hero";
 
-import ResearchInterests from "@/components/sections/ResearchInterests";
 import FeaturedResearch from "@/components/sections/FeaturedResearch";
 import NewsSection from "@/components/sections/NewsSection";
 import AwardsSection from "@/components/sections/AwardsSection";
@@ -13,20 +12,18 @@ export default function Home() {
     <>
       <Navbar />
 
-      <main className="max-w-7xl mx-auto px-6 py-10">
-        <div className="grid grid-cols-12 gap-12">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
 
-          {/* Left Sidebar */}
-          <aside className="col-span-12 lg:col-span-4 xl:col-span-3">
+          {/* Sidebar */}
+          <aside className="lg:col-span-4 xl:col-span-3">
             <Sidebar />
           </aside>
 
           {/* Main Content */}
-          <div className="col-span-12 lg:col-span-8 xl:col-span-9">
+          <section className="lg:col-span-8 xl:col-span-9">
 
             <Hero />
-
-            {/* <ResearchInterests /> */}
 
             <FeaturedResearch />
 
@@ -36,7 +33,7 @@ export default function Home() {
 
             <EducationSection />
 
-          </div>
+          </section>
 
         </div>
       </main>
