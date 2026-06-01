@@ -125,11 +125,11 @@ export default function Footer() {
             </h4>
 
             <a
-              href="mailto:obinna.awoke@gmail.com"
+              href="mailto:obinna@obinnaawoke.com"
               className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-red-700 transition mb-6 break-all"
             >
               <MdEmail size={20} />
-              <span>obinna.awoke@gmail.com</span>
+              <span>obinna@obinnaawoke.com</span>
             </a>
 
             <div className="flex gap-5 text-2xl">

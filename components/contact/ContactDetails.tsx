@@ -14,7 +14,7 @@ export default function ContactDetails() {
           </h3>
 
           <p className="text-gray-700">
-            obinna.awoke@gmail.com
+            obinna@obinnaawoke.com
           </p>
         </div>
 

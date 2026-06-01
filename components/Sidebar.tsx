@@ -45,12 +45,12 @@ export default function Sidebar() {
         <div className="space-y-3">
 
           <a
-            href="mailto:obinna.awoke@gmail.com"
+            href="mailto:obinna@obinnaawoke.com"
             className="flex items-center gap-3 hover:text-red-700 transition"
           >
             <MdEmail size={20} />
             <span className="break-all">
-              obinna.awoke@gmail.com
+              obinna@obinnaawoke.com
             </span>
           </a>
 
