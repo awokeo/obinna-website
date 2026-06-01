@@ -6,7 +6,7 @@ export default function StudentMentorship() {
 
       <SectionHeader title="Student Mentorship" />
 
-      <p className="leading-8 text-gray-700">
+      <p className="leading-8 text-gray-700 text-justify">
         Beyond classroom instruction, I actively mentor students
         in academic development, research methodology, project
         design, software development, cybersecurity, and career
@@ -18,7 +18,7 @@ export default function StudentMentorship() {
 
       <div className="mt-8 border-l-4 border-red-700 pl-6">
 
-        <p className="italic text-gray-600">
+        <p className="italic text-gray-600 text-justify">
           "Education is not simply the transfer of knowledge,
           but the development of analytical thinking,
           creativity, and the confidence to solve real-world problems."

@@ -22,7 +22,7 @@ export default function TeachingExperience() {
             Jan 2024 – Present
           </p>
 
-          <p className="mt-3 text-gray-700 leading-7">
+          <p className="mt-3 text-gray-700 leading-7 text-justify">
             Support teaching and learning activities within the School of
             Computing, facilitate tutorials and practical sessions, assist
             with student assessments, and provide academic guidance to
@@ -44,7 +44,7 @@ export default function TeachingExperience() {
             Sept 2023 – Dec 2023
           </p>
 
-          <p className="mt-3 text-gray-700 leading-7">
+          <p className="mt-3 text-gray-700 leading-7 text-justify">
             Provided academic and career guidance to students, monitored
             academic progress, supported course planning, and assisted
             learners in achieving their educational objectives.
@@ -65,7 +65,7 @@ export default function TeachingExperience() {
             Oct 2018 – Jan 2020
           </p>
 
-          <p className="mt-3 text-gray-700 leading-7">
+          <p className="mt-3 text-gray-700 leading-7 text-justify">
             Delivered lectures in Computer Science courses, developed
             instructional materials, supervised laboratory sessions,
             assessed student performance, and mentored undergraduate
@@ -87,7 +87,7 @@ export default function TeachingExperience() {
             Jan 2018 – Oct 2018
           </p>
 
-          <p className="mt-3 text-gray-700 leading-7">
+          <p className="mt-3 text-gray-700 leading-7 text-justify">
             Assisted academic staff in teaching, grading assignments,
             facilitating tutorials, supporting practical sessions, and
             providing learning support to undergraduate students.

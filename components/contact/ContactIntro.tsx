@@ -6,7 +6,7 @@ export default function ContactIntro() {
 
       <SectionHeader title="Contact" />
 
-      <p className="text-lg leading-9 text-gray-700">
+      <p className="text-lg leading-9 text-gray-700 text-justify">
         I welcome opportunities for research collaboration,
         academic partnerships, teaching engagements, cybersecurity
         projects, and discussions related to artificial intelligence,

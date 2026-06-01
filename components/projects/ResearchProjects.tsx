@@ -7,7 +7,7 @@ export default function ResearchProjects() {
 
       <SectionHeader title="Research Projects" />
 
-      <div className="space-y-8">
+      <div className="space-y-8 text-justify">
 
         <FeaturedProject
           title="Explainable Anomaly Detection in Healthcare Systems"

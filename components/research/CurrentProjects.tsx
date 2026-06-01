@@ -8,8 +8,8 @@ export default function CurrentProjects() {
 
       <div className="space-y-8">
 
-        <div className="border rounded-lg p-8">
-          <h3 className="text-2xl font-serif mb-4">
+        <div className="border rounded-lg p-8 text-justify">
+          <h3 className="text-2xl font-serif mb-4 text-justify">
             Explainable Anomaly Detection in Healthcare Systems
           </h3>
 
@@ -20,8 +20,8 @@ export default function CurrentProjects() {
           </p>
         </div>
 
-        <div className="border rounded-lg p-8">
-          <h3 className="text-2xl font-serif mb-4">
+        <div className="border rounded-lg p-8 text-justify">
+          <h3 className="text-2xl font-serif mb-4 text-justify">
             Intelligent Intrusion Detection in Intent-Driven Networks
           </h3>
 

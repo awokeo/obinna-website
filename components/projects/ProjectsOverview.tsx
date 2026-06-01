@@ -6,7 +6,7 @@ export default function ProjectsOverview() {
 
       <SectionHeader title="Projects" />
 
-      <p className="text-lg leading-9 text-gray-700">
+      <p className="text-lg leading-9 text-gray-700 text-justify">
         My projects span artificial intelligence,
         cybersecurity, explainable machine learning,
         intelligent network systems, healthcare analytics,

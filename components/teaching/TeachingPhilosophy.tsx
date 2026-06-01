@@ -6,7 +6,7 @@ export default function TeachingPhilosophy() {
 
       <SectionHeader title="Teaching Philosophy" />
 
-      <p className="text-lg leading-9 text-gray-700">
+      <p className="text-lg leading-9 text-gray-700 text-justify">
         I believe effective computing education should bridge
         theoretical foundations with practical applications.
         My teaching approach emphasizes critical thinking,

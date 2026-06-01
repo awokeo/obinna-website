@@ -7,7 +7,7 @@ export default function CybersecurityProjects() {
 
       <SectionHeader title="Cybersecurity Projects" />
 
-      <div className="space-y-8">
+      <div className="space-y-8 text-justify">
 
         <FeaturedProject
           title="Android Banking Malware Analysis"

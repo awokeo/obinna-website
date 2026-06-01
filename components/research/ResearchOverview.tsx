@@ -6,7 +6,7 @@ export default function ResearchOverview() {
 
       <SectionHeader title="Research Overview" />
 
-      <p className="text-lg leading-9 text-gray-700">
+      <p className="text-lg leading-9 text-gray-700 text-justify">
         My research lies at the intersection of artificial intelligence,
         cybersecurity, explainable machine learning, and intelligent
         network systems. I develop trustworthy AI solutions that

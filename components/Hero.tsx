@@ -13,7 +13,7 @@ export default function Hero() {
         </h1>
       </div>
 
-      <div className="mt-10 space-y-8 text-lg leading-9 text-gray-800">
+      <div className="mt-10 space-y-8 text-lg leading-9 text-gray-800 text-justify">
         <p>
           I am a researcher in Artificial Intelligence and Cybersecurity,
           currently pursuing a Master of Engineering in Digital Security and
