@@ -6,13 +6,13 @@ export default function ConferencePapers() {
 
       <SectionHeader title="Conference Papers" />
 
-      <div className="border rounded-lg p-6">
+      <div className="space-y-8">
 
-        <p className="font-semibold">
+        <p className="border rounded-lg p-6">
           Awoke, O. J., Osunde, A. A., Muhammed, I. M., & Faluyi, S. G.
         </p>
 
-        <p className="mt-2">
+        <p className="font-semibold">
           <a
             href="https://doi.org/10.1145/3803291.3803309"
             target="_blank"
@@ -28,7 +28,7 @@ export default function ConferencePapers() {
           9th International Conference on Information and Computer Technologies (ICICT 2026).
         </p>
 
-        <p className="text-sm text-gray-500 mt-2">
+        <p className="text-gray-600 mt-2">
           DOI:{" "}
           <a
             href="https://doi.org/10.1145/3803291.3803309"
