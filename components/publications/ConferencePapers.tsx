@@ -36,7 +36,7 @@ export default function ConferencePapers() {
             rel="noopener noreferrer"
             className="mt-3 inline-block text-red-700 hover:underline"
           >
-            DOI: 10.1145/3803291.3803309
+            10.1145/3803291.3803309
           </a>
         </p>
 
